@@ -1,0 +1,66 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/workspaces/LoRa-GPS/include",
+                "/workspaces/LoRa-GPS/src",
+                "/workspaces/LoRa-GPS/.pio/libdeps/lora32u4II/DHT sensor library",
+                "/workspaces/LoRa-GPS/.pio/libdeps/lora32u4II/Adafruit Unified Sensor",
+                "/workspaces/LoRa-GPS/.pio/libdeps/lora32u4II/MCCI LoRaWAN LMIC library/src",
+                "/home/codespace/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                "/home/codespace/.platformio/packages/framework-arduino-avr/cores/arduino",
+                "/home/codespace/.platformio/packages/framework-arduino-avr/variants/lora32u4II",
+                "/home/codespace/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                "/home/codespace/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                "/home/codespace/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                "/home/codespace/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/workspaces/LoRa-GPS/include",
+                    "/workspaces/LoRa-GPS/src",
+                    "/workspaces/LoRa-GPS/.pio/libdeps/lora32u4II/DHT sensor library",
+                    "/workspaces/LoRa-GPS/.pio/libdeps/lora32u4II/Adafruit Unified Sensor",
+                    "/workspaces/LoRa-GPS/.pio/libdeps/lora32u4II/MCCI LoRaWAN LMIC library/src",
+                    "/home/codespace/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                    "/home/codespace/.platformio/packages/framework-arduino-avr/cores/arduino",
+                    "/home/codespace/.platformio/packages/framework-arduino-avr/variants/lora32u4II",
+                    "/home/codespace/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                    "/home/codespace/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                    "/home/codespace/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                    "/home/codespace/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60106",
+                "ARDUINO_AVR_FEATHER32U4",
+                "F_CPU=8000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "USB_VID=0x239A",
+                "USB_PID=0x800C",
+                "USB_PRODUCT=\"Feather 32u4\"",
+                "USB_MANUFACTURER=\"BSFrance\"",
+                "__AVR_ATmega32U4__",
+                ""
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "/home/codespace/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
+            "compilerArgs": [
+                "-mmcu=atmega32u4",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
